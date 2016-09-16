@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DataBase1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_logged_in">LoggedIn</string>
+    <string name="title_activity_take_pic">TakePic</string>
+    <string name="title_activity_cam">cam</string>
+    <string name="title_activity_upload_image">UploadImage</string>
+    <string name="title_activity_showPreview">showPreview</string>
+    <string name="title_activity_gallery">gallery</string>
+    <string name="title_activity_saving_in_data_base">savingInDataBase</string>
+    <string name="title_activity_send_to_db">sendToDb</string>
+</resources>

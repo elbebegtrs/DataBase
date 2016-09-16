@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="andrescamargo.info.database1.LoggedIn"
+    android:background="@drawable/welcome"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+    </GridLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+    <Button
+        android:id="@+id/back"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    </FrameLayout>
+</LinearLayout>
